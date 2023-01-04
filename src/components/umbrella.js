@@ -61,11 +61,11 @@ class Umbrella extends Component {
     let imgSrc = this.state.showUmbrellaColor;
     return (
       <>
-        <div className="col-12 col-sm-7 text-center">
+        <div className="col-12 col-sm-6 text-center">
           <img className="umbrellaImg" src={imgSrc} alt="Umbrella" />
           <div id="list" />
         </div>
-        <div className="col-12 col-sm-5 text-start">
+        <div className="col-12 col-sm-6 text-start">
           <h1>Umbrellas Customizer</h1>
           <div className="color">
             <ButtonColor

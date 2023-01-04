@@ -57,7 +57,7 @@
   z-index: -1;
 }
 .uploadBtn {
-  width: 100%;
+  width: 75%;
   background-color: #2ab1e4;
   color: #fff;
   border: none;
@@ -80,9 +80,16 @@
     height: 5%;
   }
   .umbrellaImg {
-    max-width: 340px;
+    max-width: 320px;
     left: 0px;
     top: 0px;
     z-index: -1;
+  }
+  .uploadBtn {
+    width: 100%;
+    background-color: #2ab1e4;
+    color: #fff;
+    border: none;
+    padding: 10px;
   }
 }
