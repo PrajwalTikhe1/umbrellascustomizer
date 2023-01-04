@@ -13,8 +13,11 @@ Umbrellas customizer for an umbrella sellers. The customizer tool will let the b
 
 ## Preview
 
-**Preview**
-![Main](https://user-images.githubusercontent.com/72973991/206877301-f9b29bf6-1354-48b7-8e1f-ab0272692927.png)
+**Main**
+![Main](https://user-images.githubusercontent.com/72973991/210553486-59d7a722-f09c-4679-a324-d12261887224.png)
+
+**Upload Logo**
+![Upload Logo](https://user-images.githubusercontent.com/72973991/210553496-a754db7e-02c2-4703-af96-18a44ba3424f.png)
 
 ## Requirements
 

@@ -66,7 +66,7 @@ class Umbrella extends Component {
           <div id="list" />
         </div>
         <div className="col-12 col-sm-5 text-start">
-          <h1>Custom Umbrella</h1>
+          <h1>Umbrellas Customizer</h1>
           <div className="color">
             <ButtonColor
               color="yellow"
