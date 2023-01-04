@@ -1,13 +1,88 @@
-body {
+/*--------------- POPPINS Google Font ---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*--------------- GENERAL ---------------*/
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.App {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  position: absolute;
+  overflow: auto;
+}
+.App,
+.row {
+  height: 100vh;
+  background-color: #aecad4;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*--------------- COLOR ---------------*/
+.color {
+  margin: 5vh 0px 5vh 0px;
+}
+.color button {
+  border-radius: 50%;
+  padding: 10px;
+  margin: 5px;
+}
+.yellow {
+  background-color: #fed145;
+  border: 3px solid #ebbb2d;
+}
+.blue {
+  background-color: #2ab1e4;
+  border: 3px solid #188db8;
+}
+.pink {
+  background-color: #d9338b;
+  border: 3px solid #cc0c72;
+}
+
+/*--------------- UPLOAD LOGO ---------------*/
+.uploadIcon {
+  background-image: url('./upload_icon.svg');
+  float: left;
+  height: 22px;
+  width: 24px;
+}
+.umbrellaImg {
+  max-width: 500px;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+.uploadBtn {
+  width: 100%;
+  background-color: #2ab1e4;
+  color: #fff;
+  border: none;
+  padding: 10px;
+}
+.over {
+  position: absolute;
+  left: 25vw;
+  top: 75vh;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .over {
+    position: absolute;
+    left: 41vw;
+    top: 37vh;
+    z-index: 1;
+    width: 25%;
+    height: 5%;
+  }
+  .umbrellaImg {
+    max-width: 340px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
 }
